@@ -1,23 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - prints all combination of single digits
- * Return: Always 0
+ * main - Entry point
+ * Description: 'print comb oof numbers'
+ * Return: always 0
  */
 int main(void)
 {
-	int a;
+	int n;
 
-	for (a = 48; a <= 57; a++)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(a);
-		if (a == 57)
+		putchar(n);
+		if (n == 57)
 		{
 			continue;
 		}
 		putchar(',');
 		putchar(' ');
-
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
